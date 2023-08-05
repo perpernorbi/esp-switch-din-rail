@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RY8310
+D 30V 1.2A 1.4MHz PWM SYN Step-Down Regulator
+$ENDCMP
+#
+#End Doc Library
