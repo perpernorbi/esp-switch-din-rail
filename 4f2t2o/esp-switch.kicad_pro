@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.35
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -56,7 +56,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|76391621|23744000|600a045a-e6cc-4bdf-accc-a92dd9796064|c43369b7-13a7-4f7f-9eaf-c4d7d27019ee",
+        "silk_over_copper|57489200|25360412|ed5e428b-2839-4210-819b-78d62456807f|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|62022670|11091773|82dc1f4c-ba93-4cf5-9458-3b8e68740683|9df429c6-902c-4f39-abf9-da305d42caf7",
+        "silk_overlap|62022670|3532773|d8621592-bce1-4e9d-aca1-357cd75550c7|c221f05b-fe01-4b63-8391-779d30d76d8c",
+        "starved_thermal|60198000|39370000|42b3d83e-2add-44d9-84b1-07437c44d80f|5c03b765-45b2-47b2-b858-7cdc2f0fd824|F.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -578,7 +584,7 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "Net-\\(J[23].*"
+        "pattern": "Net-(J3*"
       },
       {
         "netclass": "AC",
@@ -586,19 +592,7 @@
       },
       {
         "netclass": "AC",
-        "pattern": "Net-(R12*"
-      },
-      {
-        "netclass": "AC",
         "pattern": "Net-(R28*"
-      },
-      {
-        "netclass": "AC",
-        "pattern": "Net-(R27*"
-      },
-      {
-        "netclass": "AC",
-        "pattern": "Net-(J2*"
       },
       {
         "netclass": "AC",
@@ -607,6 +601,26 @@
       {
         "netclass": "AC",
         "pattern": "Net-(Q6-G)"
+      },
+      {
+        "netclass": "AC",
+        "pattern": "Net-(J2*"
+      },
+      {
+        "netclass": "AC",
+        "pattern": "Net-(D6*"
+      },
+      {
+        "netclass": "AC",
+        "pattern": "Net-(D7*"
+      },
+      {
+        "netclass": "AC",
+        "pattern": "Net-(D4*"
+      },
+      {
+        "netclass": "AC",
+        "pattern": "Net-(D5*"
       }
     ]
   },

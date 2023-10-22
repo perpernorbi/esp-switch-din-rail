@@ -57,9 +57,12 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|50989200|27853999|a067c2e0-51a6-4750-a635-864b67b54a56|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|53471494|11028057|2e45c0fa-89a4-4f7b-ae04-3396bd86e04f|57bdb5c5-dd5f-4d83-8a86-f2861f71e7c1",
-        "silk_overlap|53471494|3535057|4cd06d79-9daa-4880-a4d0-836017a0994a|8193f88e-ec24-4e6b-be7e-dd347985b379"
+        "silk_edge_clearance|76391621|23744000|600a045a-e6cc-4bdf-accc-a92dd9796064|30890c51-1876-4652-9dc6-e93bef5d81a0",
+        "silk_over_copper|50989200|27847587|a067c2e0-51a6-4750-a635-864b67b54a56|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|53464870|11025773|2e45c0fa-89a4-4f7b-ae04-3396bd86e04f|57bdb5c5-dd5f-4d83-8a86-f2861f71e7c1",
+        "silk_overlap|53464870|3532773|4cd06d79-9daa-4880-a4d0-836017a0994a|8193f88e-ec24-4e6b-be7e-dd347985b379",
+        "starved_thermal|59198000|33782000|42b3d83e-2add-44d9-84b1-07437c44d80f|cc05577f-649a-4489-b923-3009b6ccceef|F.Cu",
+        "starved_thermal|60198000|39370000|42b3d83e-2add-44d9-84b1-07437c44d80f|b2014453-403d-4c1b-895c-f84b2a0ad73f|F.Cu"
       ],
       "meta": {
         "filename": "board_design_settings.json",
